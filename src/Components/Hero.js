@@ -57,7 +57,7 @@ export default function Hero() {
             <Button
             variant="outlined"
             target="_blank"
-            href="/assets/pdf/Cv.pdf" // Change the href attribute to the desired URL
+            href="https://github.com/jassercherif/MyPortfolio/blob/master/public/assets/pdf/Cv.pdf" // Change the href attribute to the desired URL
             startIcon={<CloudDownloadIcon />}
             style={{
                 color: "rgb(116, 128, 138)",
