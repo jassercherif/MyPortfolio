@@ -4,6 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import WorkIcon from "@material-ui/icons/Work";
+import ForviaIcon from "./images/forvia.png"
 
 export default function Experience() {
   const items = [
@@ -16,6 +17,7 @@ export default function Experience() {
       ].map(function (text) {
         return <li>{text}</li>;
       }),
+      icon:ForviaIcon
     },
     
   ];

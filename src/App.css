@@ -754,8 +754,20 @@ section {
   color: "#fff";
 }
 
-.scroll-container {
-  max-height: 600px; /* Adjust the height as needed */
-  overflow-y: auto;
-  padding-right: 15px; /* Add some padding to accommodate scrollbar */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover .overlay {
+  opacity: 1;
 }
