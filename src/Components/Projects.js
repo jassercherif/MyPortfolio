@@ -50,7 +50,7 @@ const Projects = () => {
       cardTitle: "Learn2Drive",
       cardDetailedText:
         "This project was created while I was working as a Full Stack Developer Intern. Created API's using Spring Boot and used the MVC architecture, and consumed these API's in the frontend.",
-      technologies: ["HTML", "CSS", "JavaScript", "PHP"],
+      technologies: ["HTML", "CSS", "JavaScript", "PHP","MySQL"],
       links: [
         {
           url: "https://github.com/jasser-cherif/Learn2Drive",
