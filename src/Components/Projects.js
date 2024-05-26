@@ -17,9 +17,12 @@ const Projects = () => {
     {
       cardTitle: "HandDrawn Interface Coder",
       cardDetailedText: [
-        "App to simulate disasters in Dublin.",
-        "Realtime traffic reporting upto 300ms latency.",
-        "Combines different velocity data streams to give a 99.9% accurate data.",
+        "Developed an intelligent application using AI to convert hand-drawn wireframes into code.",
+        "Utilized Convolutional Neural Networks (CNN) for image recognition and analysis.",
+        "Implemented Optical Character Recognition (OCR) to extract text from wireframes.",
+        "Built the frontend with React.js for dynamic and responsive user interfaces.",
+        "Created the backend using Spring Boot and Flask, following a microservices architecture.",
+        "Organized the system to ensure scalability and maintainability through microservices.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
@@ -49,7 +52,7 @@ const Projects = () => {
     {
       cardTitle: "Learn2Drive",
       cardDetailedText:
-        "This project was created while I was working as a Full Stack Developer Intern. Created API's using Spring Boot and used the MVC architecture, and consumed these API's in the frontend.",
+        "Website for a Driving School Developed with html, css, javascript, php, and MySQL",
       technologies: ["HTML", "CSS", "JavaScript", "PHP","MySQL"],
       links: [
         {
