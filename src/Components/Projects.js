@@ -20,11 +20,6 @@ const Projects = () => {
         "App to simulate disasters in Dublin.",
         "Realtime traffic reporting upto 300ms latency.",
         "Combines different velocity data streams to give a 99.9% accurate data.",
-        "Real time changes of disasters and re-routing of current users using sockets implementation.",
-        "All Emergency services directed towards the disaster as soon as someone reports.",
-        "Entire application is running in a dockerized container and hosted in Azure VM.",
-        "From scratch implementation of Load Balancing Algorithm (Weighted Round Robin) with Healthchecks.",
-        "All data is stored in NoSQL MongoDB.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
@@ -37,88 +32,45 @@ const Projects = () => {
       ],
     },
     {
-      cardTitle: "Woyse - A Multilingual Entity Recognition System",
+      cardTitle: "School Management",
       cardDetailedText: [
-        "Build an end-to-end intent and entity recognition microservice in Django.",
-        "Built using Python as a main stack, and used Tornado for socket connection.",
+        "School Management Application Developed with React Js, Spring Boot, and MongoDB.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-      technologies: ["Python", "Django", "Rasa"],
-      links: [],
+      technologies: ["React Js", "Spring Boot", "MongoDB"],
+      links: [
+        {
+          url: "https://github.com/jassercherif/SchoolManagement",
+          text: "View Source Code",
+        },
+      ],
     },
     {
-      cardTitle: "Limitless File Sharing App",
+      cardTitle: "Learn2Drive",
+      cardDetailedText:
+        "This project was created while I was working as a Full Stack Developer Intern. Created API's using Spring Boot and used the MVC architecture, and consumed these API's in the frontend.",
+      technologies: ["HTML", "CSS", "JavaScript", "PHP"],
+      links: [
+        {
+          url: "https://github.com/jasser-cherif/Learn2Drive",
+          text: "View Source Code",
+        },
+      ],
+    },
+    {
+      cardTitle: "ESP32Saturation",
       cardDetailedText: [
         "App that allows you to share ANY amount of data from one system to another.",
         "The file is encoded using base64, then it is split into chunks and uploaded to Google Sheets. While downloading the serial order is maintained and it is decoded at client’s end.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-      technologies: ["Python", "Flask", "API"],
+      technologies: ["Python", "ESP32"],
       links: [
         {
-          url: "https://github.com/vinay-deshmukh/Limitless-Client",
+          url: "https://github.com/jassercherif/ESP32Saturation",
           text: "View Source Code",
-        },
-      ],
-    },
-    {
-      cardTitle: "Finance Assistant Chatbot",
-      cardDetailedText: [
-        "Created a chatbot for Fin-tech companies for helping students regarding finances.",
-        "Tech stack comprises of Django, Rasa NLU and Postgresql.",
-      ].map(function (text) {
-        return <li>{text}</li>;
-      }),
-      technologies: ["Python", "Django", "Rasa"],
-      links: [
-        {
-          url: "https://github.com/Sitanshuk/HackPython",
-          text: "View Source Code",
-        },
-      ],
-    },
-    {
-      cardTitle: "Text Summarization",
-      cardDetailedText: [
-        "It summarizes the given text into number of sentences or words in English and Punjabi.",
-        "Created in Flask and deployed on Google App Engine.",
-      ].map(function (text) {
-        return <li>{text}</li>;
-      }),
-      technologies: ["Python", "GCP"],
-      links: [
-        {
-          url: "https://github.com/bhushan-borole/text-summarization",
-          text: "View Source Code",
-        },
-      ],
-    },
-    {
-      cardTitle: "Meeting App",
-      cardDetailedText:
-        "This project was created while I was working as a Full Stack Developer Intern. Created API's using Spring Boot and used the MVC architecture, and consumed these API's in the frontend.",
-      technologies: ["HTML", "CSS", "JS", "PHP"],
-      links: [
-        {
-          url: "https://github.com/bhushan-borole/meeting-app",
-          text: "View Source Code",
-        },
-      ],
-    },
-    {
-      cardTitle: "Justalk",
-      cardDetailedText: "A chat application made using React and Firebase Auth",
-      technologies: ["React JS", "Firebase"],
-      links: [
-        {
-          url: "https://github.com/bhushan-borole/justalk",
-          text: "View Source Code",
-        },
-        {
-          url: "https://bhushan-borole.github.io/justalk/",
-          text: "View Demo",
         },
       ],
     },
