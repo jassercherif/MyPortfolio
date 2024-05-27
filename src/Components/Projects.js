@@ -52,7 +52,7 @@ const Projects = () => {
     {
       cardTitle: "Learn2Drive",
       cardDetailedText:
-        "Website for a Driving School Developed with html, css, javascript, php, and MySQL",
+        "Website for a Driving School Developed with HTML, CSS, JavaScript, PHP, and MySQL",
       technologies: ["HTML", "CSS", "JavaScript", "PHP","MySQL"],
       links: [
         {
