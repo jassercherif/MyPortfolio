@@ -56,7 +56,7 @@ const Projects = () => {
       technologies: ["HTML", "CSS", "JavaScript", "PHP","MySQL"],
       links: [
         {
-          url: "https://github.com/jasser-cherif/Learn2Drive",
+          url: "https://github.com/jassercherif/Learn2Drive",
           text: "View Source Code",
         },
       ],
