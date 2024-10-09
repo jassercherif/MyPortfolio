@@ -1,5 +1,5 @@
 pipeline {
-    
+
     agent any
 
     stages {   
@@ -8,7 +8,7 @@ pipeline {
             steps {
                 nodejs('NODE'){
                     echo 'Building the application'
-                    sh 'npm install'
+                    sh 'npm install --legacy-peer-deps'
                 }
             }
         }
