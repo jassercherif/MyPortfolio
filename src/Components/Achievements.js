@@ -1,8 +1,13 @@
+import React from "react";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import Slider from "react-slick";
 import tf_badge from "./images/kodekloud.jpg";
 import mta from "./images/Nvidia_(logo).svg.png";
 import ocajp from "./images/Kaggle_logo.png";
 import Button from "@material-ui/core/Button";
 import Card from "react-bootstrap/Card";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Achievements = () => {
     const items = [
@@ -42,67 +47,108 @@ const Achievements = () => {
             btnUrl: "https://www.kaggle.com/learn/certification/jassercherif/intro-to-machine-learning",
         },
     ];
+
+    // Carousel settings
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3, // Show 3 cards at a time
+        slidesToScroll: 1,
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />,
+    };
+
+    function NextArrow(props) {
+        const { onClick } = props;
+        return (
+            <div
+                style={{
+                    position: "absolute",
+                    top: "50%",
+                    right: "-30px",
+                    transform: "translateY(-50%)",
+                    cursor: "pointer",
+                    zIndex: 10,
+                }}
+                onClick={onClick}
+            >
+                <FaArrowRight size={30} color="#fff" />
+            </div>
+        );
+    }
+
+    function PrevArrow(props) {
+        const { onClick } = props;
+        return (
+            <div
+                style={{
+                    position: "absolute",
+                    top: "50%",
+                    left: "-30px",
+                    transform: "translateY(-50%)",
+                    cursor: "pointer",
+                    zIndex: 10,
+                }}
+                onClick={onClick}
+            >
+                <FaArrowLeft size={30} color="#fff" />
+            </div>
+        );
+    }
+
     return (
-        <section id="achievements" class="about background-alt">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>Certifications</h2>
+        <section id="achievements" className="about background-alt">
+            <div className="container" data-aos="fade-up">
+                <div className="section-title">
+                    <h2 style={{ color: "white" }}>Certifications</h2>
                 </div>
-                <div class="row">
-                    {items.map((data, i) => (
-                        <div
-                            class="col-sm-3 d-flex justify-content-center"
-                            key={i}
-                        >
-                            {/* <div class="card shadow-large h-100 achievement-card" style={{maxWidth: "270px", background: "#343a40", padding: "20px"}}>
-                    <img class="card-img-top responsive" src={data.img} height="50%" width="30%"/>
-                  <div class="card-body">
-                    <h5 class="card-title" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "16px"}}>{data.cardTitle}</h5>
-                    <p class="card-text" style={{color: "#74808a"}}>{data.cardText}</p>
-                    <a href="https://www.credential.net/bef2570d-7d63-4f07-be28-57ec4da87373" target="_blank" class="btn btn-primary">See Credential</a>
-                  </div>
-                </div> */}
-                            <Card
-                                style={{
-                                    width: "16rem",
-                                    background: "#343a40",
-                                    padding: "20px",
-                                }}
-                                className="text-center"
-                            >
-                                <Card.Img variant="top" src={data.img} />
-                                <Card.Body>
-                                    <Card.Title
-                                        style={{
-                                            color: "rgba(255, 255, 255, 0.7)",
-                                            fontSize: "18px",
-                                        }}
-                                    >
-                                        {data.cardTitle}
-                                    </Card.Title>
-                                    <br></br>
-                                    <Card.Text style={{ color: "#74808a" }}>
-                                        <div
-                                            dangerouslySetInnerHTML={{
-                                                __html: data.cardText,
+                <div style={{ position: "relative" }}>
+                    <Slider {...settings}>
+                        {items.map((data, i) => (
+                            <div key={i}>
+                                <Card
+                                    style={{
+                                        width: "16rem",
+                                        background: "#343a40",
+                                        padding: "20px",
+                                        margin: "10px auto",
+                                    }}
+                                    className="text-center"
+                                >
+                                    <Card.Img variant="top" src={data.img} />
+                                    <Card.Body>
+                                        <Card.Title
+                                            style={{
+                                                color: "rgba(255, 255, 255, 0.7)",
+                                                fontSize: "18px",
                                             }}
-                                        ></div>
-                                    </Card.Text>
-                                    {data.btnText && (
-                                        <Button
-                                            variant="contained"
-                                            color="default"
-                                            target="_blank"
-                                            href={data.btnUrl}
                                         >
-                                            {data.btnText}
-                                        </Button>
-                                    )}
-                                </Card.Body>
-                            </Card>
-                            <br></br>
-                        </div>
-                    ))}
+                                            {data.cardTitle}
+                                        </Card.Title>
+                                        <br />
+                                        <Card.Text style={{ color: "#74808a" }}>
+                                            <div
+                                                dangerouslySetInnerHTML={{
+                                                    __html: data.cardText,
+                                                }}
+                                            ></div>
+                                        </Card.Text>
+                                        {data.btnText && (
+                                            <Button
+                                                variant="contained"
+                                                color="default"
+                                                target="_blank"
+                                                href={data.btnUrl}
+                                            >
+                                                {data.btnText}
+                                            </Button>
+                                        )}
+                                    </Card.Body>
+                                </Card>
+                            </div>
+                        ))}
+                    </Slider>
                 </div>
             </div>
         </section>
