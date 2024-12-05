@@ -19,6 +19,24 @@ export default function Experience() {
       }),
       icon:ForviaIcon
     },
+     {
+    date: "July 2024 - September 2024",
+    cardTitle: "Sofrecom Tunisia",
+    cardSubtitle: "Software Engineer Intern",
+    cardDetailedText: [
+      'Developed a Request Management Application using the MERN stack (MongoDB, Express.js, React, Node.js).',
+      'Built CRUD functionality for managing requests and an Admin Panel to manage coaches, projects, business units, and streams.',
+      'Designed an interactive dashboard using ApexCharts to visualize request status changes and coach performance.',
+      'Prototyped UI using Canva for wireframes and design mockups.',
+      'Implemented API testing with Bruno and backend testing using the Mocha framework.',
+      'Set up an automated CI/CD pipeline using GitLab CI for continuous integration and seamless deployment.',
+      'Followed Agile methodology, gathering user feedback to iterate and improve the application.',
+    ].map(function (text) {
+      return <li>{text}</li>;
+    }),
+    technologies: ["React JS", "Node Js", "Express Js","MongoDB","Mocha","Gitlab CI/CD"],
+    icon:ForviaIcon
+  },
     
   ];
 

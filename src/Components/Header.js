@@ -118,6 +118,12 @@ class Header extends React.Component {
                 </a>
               </li>
               <li>
+  <a href="#skills" className="nav-link scrollto d-flex justify-content-center">
+    <i className="bx bx-wrench"></i>  {/* A wrench icon for mechanics */}
+    <span>Skills</span>
+  </a>
+</li>
+              <li>
                 <a href="#achievements" className="nav-link scrollto d-flex justify-content-center">
                   <i className="bx bx-award"></i>
                   <span>Certifications</span>
@@ -129,14 +135,6 @@ class Header extends React.Component {
                   <span>Education</span>
                 </a>
               </li>
-              {/* Add Skills and Contact sections */}
-              <li>
-  <a href="#skills" className="nav-link scrollto d-flex justify-content-center">
-    <i className="bx bx-wrench"></i>  {/* A wrench icon for mechanics */}
-    <span>Skills</span>
-  </a>
-</li>
-
               <li>
                 <a href="#contact" className="nav-link scrollto d-flex justify-content-center">
                   <i className="bx bx-envelope"></i>
