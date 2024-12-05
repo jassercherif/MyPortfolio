@@ -40,6 +40,27 @@ const Achievements = () => {
             btnUrl: "https://www.kaggle.com/learn/certification/jassercherif/intro-to-deep-learning",
         },
         {
+            img: tf_badge, // You can replace with the actual image path
+            cardTitle: "Kubernetes for the Absolute Beginners - Hands-on Tutorial",
+            cardText: "Issued on: <br/> September, 2024",
+            btnText: "See Credential",
+            btnUrl: "https://kodekloud.com/certificate-verification/23dcba2a-5b42-43e4-9fa6-778f3f4dbbe9/",
+          },
+          {
+            img: tf_badge, // You can replace with the actual image path
+            cardTitle: "Learn Ansible Basics - Beginners Course",
+            cardText: "Issued on: <br/> September, 2024",
+            btnText: "See Credential",
+            btnUrl: "https://kodekloud.com/certificate-verification/4214cff2-afc3-42b0-9ad7-7c62c10b8305/",
+          },
+          {
+            img: tf_badge, // You can replace with the actual image path
+            cardTitle: "Terraform Basics Training Course",
+            cardText: "Issued on: <br/> September, 2024",
+            btnText: "See Credential",
+            btnUrl: "https://kodekloud.com/certificate-verification/5a9b9e86-69a0-41c1-abd5-31210d995d5d/",
+          },
+        {
             img: ocajp,
             cardTitle: "Intro to Machine Learning",
             cardText: "Issued on: <br/> April , 2023",
