@@ -8,6 +8,7 @@ import {
   FaJenkins,
   FaGithub,
   FaBrain,
+  FaLinux,
 } from "react-icons/fa";
 import {
   SiKubernetes,
@@ -54,6 +55,7 @@ const Skills = () => {
     { name: "Docker", icon: <FaDocker size={30} color="white" /> },
     { name: "Jenkins", icon: <FaJenkins size={30} color="white" /> },
     { name: "Kubernetes", icon: <SiKubernetes size={30} color="white" /> },
+    { name: "Linux", icon: <FaLinux size={30} color="white" /> }, 
     { name: "Git", icon: <SiGit size={30} color="white" /> },
     { name: "GitHub", icon: <FaGithub size={30} color="white" /> },
     { name: "GitLab", icon: <SiGitlab size={30} color="white" /> },
