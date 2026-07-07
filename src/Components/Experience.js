@@ -24,7 +24,8 @@ const items = [
       "LangSmith",
       "PostgreSQL",
       "React JS",
-      "Docker"
+      "Docker",
+      "Kafka"
     ],
     icon: TalanIcon,
   },

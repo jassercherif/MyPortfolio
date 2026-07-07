@@ -18,10 +18,10 @@ export default function Hero() {
               I'm a&nbsp;
               <span
                 class="typed"
-                data-typed-items="Software Engineering Student, Backend Developer, AI Enthusiast"
+                data-typed-items="AI Software Engineer, Backend Developer, Agentic AI Enthusiast"
               >
                 <Typed
-                  strings={["Software Engineering Student", "Backend Developer", "AI Enthusiast"]}
+                  strings={["AI Software Engineer", "Backend Developer", "Agentic AI Enthusiast"]}
                   loop
                   typeSpeed={90}
                   backSpeed={60}

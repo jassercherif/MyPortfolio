@@ -17,6 +17,10 @@ const items = [
       "Weaviate",
       "Salesforce CLI",
       "LangSmith",
+      "PostgreSQL",
+      "React JS",
+      "Docker",
+      "Kafka"
     ],
     links: [],
   },

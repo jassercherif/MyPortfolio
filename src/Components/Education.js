@@ -10,9 +10,10 @@ const Education = () => {
   const items = [
     {
       cardTitle: "National School of Computer Science ENSI",
-      cardSubtitle: "Computer Science Engineer",
-      coursesHead: "Competences: ",
-      cardDetailedText: [
+      cardSubtitle: "Computer Science Engineering Degree + Master's Degree",
+    
+     // coursesHead: "Competences: ",
+     /* cardDetailedText: [
         "C",
         "C++",
         "Java",
@@ -23,27 +24,28 @@ const Education = () => {
         "Web Development",
       ].map(function (course) {
         return <li>{course}</li>;
-      }),
+      }),*/
       date: "2022 - 2025",
     },
+  
     {
       cardTitle: "Preparatory Institute for Engineering Studies of Nabeul",
       cardSubtitle: "Technologie",
-      coursesHead: "Competences: ",
+      /*coursesHead: "Competences: ",
       cardDetailedText: [
         "Python",
         "Database Management",
         "SQL",
       ].map(function (course) {
         return <li>{course}</li>;
-      }),   
+      }), */  
       date: "2020 - 2022",
     },
     {
       cardTitle: "Abdelaziz Khouja High School, Kelibia",
       cardSubtitle: "Technical Baccalaureate",
-      coursesHead: "Competences: ",
-      cardDetailedText: "Algorithmic",
+      //coursesHead: "Competences: ",
+     // cardDetailedText: "Algorithmic",
       date: "2016 - 2020",
     },
 
