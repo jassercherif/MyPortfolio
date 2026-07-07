@@ -67,6 +67,7 @@ const Achievements = () => {
             btnText: "See Credential",
             btnUrl: "https://www.kaggle.com/learn/certification/jassercherif/intro-to-machine-learning",
         },
+        
     ];
 
     // Carousel settings
