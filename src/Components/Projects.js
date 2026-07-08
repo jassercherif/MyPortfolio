@@ -34,7 +34,12 @@ const items = [
       "Served hybrid retrieval over embedded document chunks through a FastAPI + LangChain REST layer.",
     ],
     technologies: ["Neo4j", "LangChain", "FastAPI", "Firecrawl MCP", "GraphRAG"],
-    links: [],
+    links: [
+      {
+        url: "https://github.com/jassercherif/GraphTravelAssistant",
+        text: "View Source Code",
+      },
+    ],
   },
   {
     cardTitle: "FutureCover",
@@ -45,7 +50,12 @@ const items = [
       "Integrated a real-time fraud-detection engine (Isolation Forest, Autoencoder, XGBoost, Llama3-7B) with Flask to score and flag suspicious claims.",
     ],
     technologies: ["Salesforce", "Apex", "Flask", "XGBoost", "Llama3-7B"],
-    links: [],
+    links: [
+      {
+        url: "https://github.com/jassercherif/FutureCover",
+        text: "View Source Code",
+      },
+    ],
   },
   {
     cardTitle: "AI Voice Intelligence Platform",
