@@ -14,6 +14,8 @@ const items = [
       "Designed a Root Cause Analysis agent with 9 diagnostic tools and a Weaviate-backed RAG pipeline, improving diagnostic accuracy by 30% and cutting debugging time by 40%.",
       "Built a Salesforce CLI validation pipeline (dry-run deployment, scoped Apex testing, coverage gating) and resolved 10+ critical defects in the LangGraph state-routing logic.",
       "Automated the fix-to-delivery workflow end-to-end, generating Jira tickets and GitHub pull requests directly from validated diagnoses.",
+      "Built AgenticDoc, an enterprise Agentic AI platform that analyzes Salesforce organizations and generates living technical documentation using metadata analysis, MCP tools, RAG, and knowledge graphs.",
+      "Designed scalable AI architectures integrating Salesforce, Neo4j, PostgreSQL, FastAPI, and containerized services to support intelligent retrieval, orchestration, and contextual reasoning."
     ],
     technologies: [
       "LangGraph",

@@ -1,5 +1,28 @@
 const items = [
   {
+    cardTitle: "AgenticDoc",
+    tagline: "Agentic AI Platform for Salesforce Documentation",
+    accent: "#7c4dff",
+    cardDetailedText: [
+      "Built an agentic AI platform that automatically analyzes Salesforce orgs and generates living technical documentation.",
+      "Designed a multi-agent workflow combining Salesforce metadata, knowledge graphs, RAG, and conversational querying to understand complex org structures.",
+      "Integrated Salesforce Metadata APIs and MCP-based tools to inspect data models, automations, dependencies, and technical debt.",
+      "Implemented a PostgreSQL control plane and Neo4j metadata graph to support scalable orchestration, retrieval, and contextual reasoning."
+    ],
+    technologies: [
+      "LangGraph",
+      "Salesforce",
+      "MCP",
+      "RAG",
+      "Neo4j",
+      "PostgreSQL",
+      "FastAPI",
+      "React JS",
+      "Docker"
+    ],
+    links: []
+  },
+  {
     cardTitle: "TALOS",
     tagline: "Multi-Agent AI System for Salesforce Bug Diagnosis & Resolution",
     featured: true,
