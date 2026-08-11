@@ -15,10 +15,10 @@ export default function Hero() {
             <h1>Jasser Cherif</h1>
             <br />
             <p>
-              I'm a&nbsp;
+              I'm an&nbsp;
               <span
                 class="typed"
-                data-typed-items="AI Software Engineer, Backend Developer, Agentic AI Enthusiast"
+                data-typed-items="AI Software Engineer,AI Backend Developer, Agentic AI Enthusiast"
               >
                 <Typed
                   strings={["AI Software Engineer", "Backend Developer", "Agentic AI Enthusiast"]}
@@ -57,7 +57,7 @@ export default function Hero() {
             <Button
             variant="outlined"
             target="_blank"
-            href="https://jassercherif.github.io/MyPortfolio/assets/pdf/Cv.pdf" // Change the href attribute to the desired URL
+            href="https://jassercherif.github.io/MyPortfolio/assets/pdf/Jasser_Cherif_CV.pdf" // Change the href attribute to the desired URL
             startIcon={<CloudDownloadIcon />}
             style={{
                 color: "rgb(116, 128, 138)",
