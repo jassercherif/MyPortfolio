@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.69bee6fc.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.d7e0b89a.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.d7e0b89a.chunk.js.map",
+    "main.js": "/MyPortfolio/static/js/main.7cee5e7e.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.7cee5e7e.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.540e1f12.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.540e1f12.js.map",
     "static/css/2.cd973807.chunk.css": "/MyPortfolio/static/css/2.cd973807.chunk.css",
@@ -21,7 +21,7 @@
     "static/media/datacamp.b3aa8309.png": "/MyPortfolio/static/media/datacamp.b3aa8309.png",
     "static/media/forvia.8759f54a.png": "/MyPortfolio/static/media/forvia.8759f54a.png",
     "static/media/jasser.6052de01.jpg": "/MyPortfolio/static/media/jasser.6052de01.jpg",
-    "static/media/jz.b96c24cf.jpg": "/MyPortfolio/static/media/jz.b96c24cf.jpg",
+    "static/media/jz.2f22bd33.jpg": "/MyPortfolio/static/media/jz.2f22bd33.jpg",
     "static/media/kodekloud.85778a7b.jpg": "/MyPortfolio/static/media/kodekloud.85778a7b.jpg",
     "static/media/neo4j.9fa59603.png": "/MyPortfolio/static/media/neo4j.9fa59603.png",
     "static/media/salesforce.c8945db4.png": "/MyPortfolio/static/media/salesforce.c8945db4.png",
@@ -33,6 +33,6 @@
     "static/css/2.cd973807.chunk.css",
     "static/js/2.b6359548.chunk.js",
     "static/css/main.69bee6fc.chunk.css",
-    "static/js/main.d7e0b89a.chunk.js"
+    "static/js/main.7cee5e7e.chunk.js"
   ]
 }
